@@ -1,0 +1,40 @@
+body{
+    background-color: #4C6793;
+    color: aliceblue;
+}
+
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+#clock h2{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.clockContainer { 
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+}
+
+.clockItem{
+    width: 32%;
+    background-color: aliceblue;
+    color: #4C6793;
+    border-radius: 10px;
+    margin-right: 5%;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Orbitron',sans-serif;
+}
+
+#date{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
